@@ -176,7 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         //add to repositories
-        App\Repositories\User\ServiceProvider\UserRepoServiceProvider::class,
+        App\Services\HarmonizeService::class,
         Barryvdh\Debugbar\ServiceProvider::class,
 
     ],
